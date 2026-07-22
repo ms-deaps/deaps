@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Hub de soluções digitais do DEAPS — Ministério da Saúde." />
+    <title>DEAPS | Soluções digitais</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#inicio" aria-label="Ministério da Saúde — página inicial">
+        <img src="img/image.png" alt="Ministério da Saúde" />
+      </a>
+    </header>
+
+    <main id="inicio">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Secretaria de Atenção Primária à Saúde</p>
+          <h1 id="page-title">Soluções digitais<br /><em>DEAPS</em></h1>
+          <p class="hero-text">Acesse em um só lugar as ferramentas que apoiam a gestão, o planejamento e as entregas da Atenção Primária à Saúde.</p>
+          <a class="scroll-link" href="#solucoes">Explorar soluções <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-graphic" aria-hidden="true">
+          <div class="orb orb-one"></div><div class="orb orb-two"></div>
+          <svg viewBox="0 0 360 300" role="presentation">
+            <path d="M180 29c-55 0-99 44-99 99 0 75 99 143 99 143s99-68 99-143c0-55-44-99-99-99Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <circle cx="180" cy="128" r="50" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M166 91h28v23h23v28h-23v23h-28v-23h-23v-28h23z" fill="currentColor"/>
+          </svg>
+        </div>
+      </section>
+
+      <section class="solutions" id="solucoes" aria-label="Soluções digitais DEAPS">
+        <!-- CARDS:START -->
+        <div class="cards-grid" id="cards-grid">
+          <a class="solution-card azul" href="https://ms-deaps.github.io/redmine_dash/" target="_blank" rel="noopener noreferrer" aria-label="Abrir Painel de Tarefas em nova aba">
+            <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 7h8M8 12h8M8 17h8"/><path d="m4 7 1.3 1.3L7 6.3m-3 5.7L5.3 13.3 7 11.3m-3 5.7L5.3 18.3 7 16.3"/></svg></span>
+            <span class="card-content"><span class="card-title">Painel de Tarefas</span><span class="card-description">Dashboard para acompanhar tarefas e a gestão de atividades dos usuários no Redmine.</span></span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="solution-card verde" href="http://localhost:8080" target="_blank" rel="noopener noreferrer" aria-label="Abrir Painel de Projetos em nova aba">
+            <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 8 4.5-8 4.5-8-4.5L12 3Z"/><path d="m4 12 8 4.5 8-4.5M4 16.5l8 4.5 8-4.5"/></svg></span>
+            <span class="card-content"><span class="card-title">Painel de Projetos</span><span class="card-description">Solução para organizar a gestão das entregas e das fases de cada projeto.</span></span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="solution-card azul" href="https://sapsprojetos.saude.gov.br/pt-br/home" target="_blank" rel="noopener noreferrer" aria-label="Abrir Instrumentos de Cooperação em nova aba">
+            <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="5" cy="12" r="2.5"/><circle cx="19" cy="6" r="2.5"/><circle cx="19" cy="18" r="2.5"/><path d="m7.3 11 9.4-4M7.3 13l9.4 4"/></svg></span>
+            <span class="card-content"><span class="card-title">Instrumentos de Cooperação</span><span class="card-description">Painel digital da Gestão de Projetos e Contratos da Secretaria de Atenção Primária à Saúde.</span></span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="solution-card verde" href="https://app.powerbi.com/view?r=eyJrIjoiNmUyMTVjYzUtYTZhYS00OGZiLTk1MjUtYjhiZDdhMjVmODVjIiwidCI6IjlhNTU0YWQzLWI1MmItNDg2Mi1hMzZmLTg0ZDg5MWU1YzcwNSJ9" target="_blank" rel="noopener noreferrer" aria-label="Abrir Acompanhamento Financeiro de TEDs em nova aba">
+            <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V4m0 16h17"/><path d="m7 16 4-5 3 2 5-7"/></svg></span>
+            <span class="card-content"><span class="card-title">Acompanhamento Financeiro de TEDs</span><span class="card-description">Acompanhamento do planejamento e da execução financeira da Secretaria.</span></span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="solution-card azul" href="https://inovacao-saps.saude.gov.br/projects/eventos/issues" target="_blank" rel="noopener noreferrer" aria-label="Abrir Eventos em nova aba">
+            <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="5.5" width="16" height="15" rx="2"/><path d="M8 3v5m8-5v5M4 10h16M8 14h.01M12 14h.01M16 14h.01M8 17h.01M12 17h.01"/></svg></span>
+            <span class="card-content"><span class="card-title">Eventos</span><span class="card-description">Atividades relacionadas aos eventos da Secretaria.</span></span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <!-- CARDS:END -->
+      </section>
+
+    </main>
+
+    <footer>
+      <div>
+        <strong>DEAPS</strong>
+        <span>Departamento de Estratégias, Acreditação e Componentes da Atenção Primária à Saúde</span>
+        <span>Ministério da Saúde</span>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
